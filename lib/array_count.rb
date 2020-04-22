@@ -8,7 +8,7 @@ end
 def count_empty_strings(array)
   count = 0 
   array.count do |value| 
-  if(value.class == String && value.length == 0)
+  value.class == String && value.size == 0
   count += 1 
   end 
 end
