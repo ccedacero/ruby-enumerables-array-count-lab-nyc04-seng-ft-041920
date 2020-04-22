@@ -11,6 +11,7 @@ def count_empty_strings(array)
 
   if(value.class == String && value.length == 0)
   count += 1 
+end 
 end
   retun count 
 end
