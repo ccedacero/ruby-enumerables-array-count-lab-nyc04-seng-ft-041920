@@ -10,6 +10,8 @@ def count_empty_strings(array)
   
   if (value.class == String && value.length == 0)
   count += 1 
-  }  
-  # Return the total number of EMPTY strings in the provided array using the count enumerable
+  }
+  retun count 
 end
+
+  # Return the total number of EMPTY strings in the provided array using the count enumerable
